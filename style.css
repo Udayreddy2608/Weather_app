@@ -1,0 +1,199 @@
+body{
+    background-color: skyblue;
+    font-family: 'Poppins', sans-serif;
+    color: #0F2167;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+input{
+    width: 30vw;
+    min-width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+}
+
+i{
+    position: absolute;
+    padding: 17px;
+    margin-left: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.conditions{
+    width: 95vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+
+.temperature{
+    grid-area: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 600px) {
+    .conditions{
+        width: 95vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    #city {
+        margin-top: 50px;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+        align-items: center;
+    }
+    button{
+        height: 30px;
+        width: 150px;
+    }
+  }
+
+#tempval{
+    font-size: 6rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.sun{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#condimg{
+    height: 40px;
+    width: 40px;
+}
+
+#suncond{
+    margin-bottom: 12px;
+}
+
+#windimg{
+    width: 50px;
+    height: 50px;
+}
+
+#windspeed{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.vitals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    margin-top: 19px;
+    font-size: 1rem;
+    margin-left: -20px;
+}
+
+.others{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#srimg{
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+#sunrisediv{
+    display: flex;
+    gap: 20px;
+}
+
+#setimg{
+    width: 60px;
+    height: 60px;
+    margin-top: 2px;
+}
+
+.temperature img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3887BE;
+    color: white;
+    cursor: pointer;
+    margin-top: 2px;
+    padding: 0 20px 0 20px;
+}
+
+button:hover{
+    transition: all 1s;
+    background-color: #38419D;
+}
+
+input:hover{
+    box-shadow: 0 0 1rem #38419D;
+    transition: all 1s;
+}
+
+#windspeed{
+    display: flex;
+}
+
+.input{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
